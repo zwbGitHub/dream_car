@@ -13,13 +13,13 @@ export default {
       tabDatas: [
         { name: '品 牌', path: '/brand' },
         { name: '车 系', path: '/series' },
-        { name: '车 型', path: '/model' },
-      ],
+        { name: '车 型', path: '/model' }
+      ]
     }
   },
   components: {
-    ClickCircle,
-  },
+    ClickCircle
+  }
 }
 </script>
 

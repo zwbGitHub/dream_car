@@ -11,9 +11,9 @@ export default {
   name: 'ListItem',
   props: {
     item: {
-      type: Object,
-    },
-  },
+      type: Object
+    }
+  }
 }
 </script>
 

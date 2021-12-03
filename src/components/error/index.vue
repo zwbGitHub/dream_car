@@ -10,13 +10,13 @@ import errorText from '@/data/error.js'
 export default {
   name: 'ErrorWall',
   props: {
-    errorCode: Number || String,
+    errorCode: Number || String
   },
   data() {
     return {
-      title: errorText[this.errorCode],
+      title: errorText[this.errorCode]
     }
-  },
+  }
 }
 </script>
 

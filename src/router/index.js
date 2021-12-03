@@ -13,24 +13,24 @@ const routes = [
       {
         path: '/brand',
         name: 'brand',
-        component: () => import('../views/Brand.vue'),
+        component: () => import('../views/Brand.vue')
       },
       {
         path: '/series',
         name: 'series',
-        component: () => import('../views/Series.vue'),
+        component: () => import('../views/Series.vue')
       },
       {
         path: '/model',
         name: 'model',
-        component: () => import('../views/Model.vue'),
-      },
-    ],
-  },
+        component: () => import('../views/Model.vue')
+      }
+    ]
+  }
 ]
 
 const router = new VueRouter({
-  routes,
+  routes
 })
 /* router.beforeEach((to, from, next) => {
   if (store.state.brandData.length === 0 && to.name !== 'brand') {

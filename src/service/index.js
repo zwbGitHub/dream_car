@@ -4,8 +4,8 @@ function getBrand(letter) {
   return getAxios({
     url: '/api/cxdq/brand',
     data: {
-      first_letter: letter,
-    },
+      first_letter: letter
+    }
   })
 }
 function getSeries(brandId, levelId) {
@@ -13,16 +13,16 @@ function getSeries(brandId, levelId) {
     url: '/api/cxdq/series',
     data: {
       brandid: brandId,
-      levelid: levelId,
-    },
+      levelid: levelId
+    }
   })
 }
 function getModel(seriesId) {
   return getAxios({
     url: '/api/cxdq/models',
     data: {
-      series_id: seriesId,
-    },
+      series_id: seriesId
+    }
   })
 }
 

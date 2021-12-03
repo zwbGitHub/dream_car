@@ -37,7 +37,7 @@ export default {
   border-radius: 8px;
   overflow: hidden;
   background: #fff;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.1rFem;
   box-shadow: 1px 1px 5px skyblue;
   h1 {
     color: skyblue;

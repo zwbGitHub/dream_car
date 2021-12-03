@@ -16,15 +16,15 @@ export default {
     return {
       brand: {
         brand_name: '劳斯莱斯',
-        id: 173,
-      },
+        id: 173
+      }
     }
   },
   components: {
-    ListItem,
+    ListItem
   },
   computed: {
-    ...mapState(['seriesData', 'brandData']),
+    ...mapState(['seriesData', 'brandData'])
   },
   activated() {
     this.$refs.scroll.scrollTop = this.listScroll
@@ -42,8 +42,8 @@ export default {
   methods: {
     scrollEvent: debounce(function (e) {
       this.listScroll = e.target.scrollTop
-    }, 500),
-  },
+    }, 500)
+  }
 }
 </script>
 

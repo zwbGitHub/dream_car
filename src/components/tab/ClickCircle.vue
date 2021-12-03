@@ -10,9 +10,9 @@ export default {
   props: {
     item: {
       type: Object,
-      require: true,
-    },
-  },
+      require: true
+    }
+  }
 }
 </script>
 

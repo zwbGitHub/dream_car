@@ -20,7 +20,7 @@ export default new Vuex.Store({
   mutations: {
     SetBrand(state, value) {
       state.brandData = value
-      state.showBrand = value
+      state.showBrand = value.slice(0,20)
     },
     SetShowBrand(state, value) {
       state.showBrand = value

@@ -10,19 +10,19 @@ export default {
   name: 'ListItem',
   props: {
     item: {
-      type: Object,
-    },
+      type: Object
+    }
   },
   methods: {
     toSeries() {
       this.$router.push({
         name: 'series',
         params: {
-          ...this.item,
-        },
+          ...this.item
+        }
       })
-    },
-  },
+    }
+  }
 }
 </script>
 

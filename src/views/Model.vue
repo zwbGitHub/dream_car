@@ -22,10 +22,10 @@ import debounce from 'lodash/debounce'
 export default {
   name: 'Model',
   components: {
-    ListItem,
+    ListItem
   },
   computed: {
-    ...mapState(['modelData', 'modelShowSeries', 'brandData']),
+    ...mapState(['modelData', 'modelShowSeries', 'brandData'])
   },
   activated() {
     this.$refs.scroll.scrollTop = this.listScroll
@@ -43,8 +43,8 @@ export default {
   methods: {
     scrollEvent: debounce(function (e) {
       this.listScroll = e.target.scrollTop
-    }, 500),
-  },
+    }, 500)
+  }
 }
 </script>
 

@@ -21,11 +21,11 @@ export default {
   components: {
     Search,
     Tab,
-    ErrorWall,
+    ErrorWall
   },
   computed: {
-    ...mapState(['errorCode']),
-  },
+    ...mapState(['errorCode'])
+  }
 }
 </script>
 

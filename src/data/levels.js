@@ -17,5 +17,5 @@ export default [
   '中型SUV',
   '中大型SUV',
   '大型SUV',
-  '紧凑型MPV',
+  '紧凑型MPV'
 ]

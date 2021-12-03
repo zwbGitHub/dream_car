@@ -18,7 +18,7 @@ import throttle from 'lodash/throttle'
 export default {
   data() {
     return {
-      iptValue: '',
+      iptValue: ''
     }
   },
   computed: {
@@ -34,7 +34,7 @@ export default {
         default:
           return '请输入'
       }
-    },
+    }
   },
   methods: {
     checkValue: throttle(function () {
@@ -42,16 +42,16 @@ export default {
     }, 3000),
     clearValue() {
       ClearValue(this.iptValue, this.$route.name)
-    },
+    }
   },
   watch: {
     $route: {
       deep: true,
       handler() {
         this.iptValue = ''
-      },
-    },
-  },
+      }
+    }
+  }
 }
 </script>
 
